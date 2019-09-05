@@ -1,12 +1,5 @@
-import React, { Fragment } from "react";
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar
-} from "react-native";
+import React from 'react';
+import {StyleSheet, View, Text} from 'react-native';
 
 const App = () => {
   return (
@@ -19,15 +12,15 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignContent: "center",
-    backgroundColor: "#7159c1"
+    justifyContent: 'center',
+    alignContent: 'center',
+    backgroundColor: '#7159c1',
   },
   text: {
     fontSize: 20,
-    textAlign: "center",
-    color: "white"
-  }
+    textAlign: 'center',
+    color: 'white',
+  },
 });
 
 export default App;
