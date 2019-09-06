@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import Loading from '../../components/Loading';
+
 import api from '../../services/api';
 
 import {
@@ -9,7 +11,7 @@ import {
   Avatar,
   Name,
   Bio,
-  Loading,
+  // Loading,
   Stars,
   Starred,
   OwnerAvatar,
