@@ -17,6 +17,7 @@ export const Avatar = styled.Image`
   height: 100px;
   border-radius: 50px;
   background: #eee;
+  border: 1px solid #eee;
 `;
 
 export const Name = styled.Text`
@@ -55,6 +56,7 @@ export const OwnerAvatar = styled.Image`
   height: 42px;
   border-radius: 21px;
   background: #eee;
+  border: 1px solid #eee;
 `;
 
 export const Info = styled.View`
