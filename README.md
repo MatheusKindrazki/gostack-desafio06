@@ -57,4 +57,4 @@ Exemplo de código:
 
 Resultado:
 
-![WebView](exemplo-web-view.png)
+![WebView](animated.gif)
